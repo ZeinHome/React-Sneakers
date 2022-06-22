@@ -1,13 +1,13 @@
-import {Link} from 'react-router-dom'
+
 
 function Headers({onOpenCartClick}) {
     return (
         <header className="header">
 
         <div className="header-container">
-       {/* <Link to="/" className='link-logo'> */}
+     
        <div className="logo">
-           <img src="./logo.svg" alt="logo"></img>
+           <img src="" alt="logo" />
              <div className="header__title">
                <h1 className="project__title">REACT SNEAKERS</h1>
                  <p className="header__text">
@@ -15,7 +15,7 @@ function Headers({onOpenCartClick}) {
                  </p>
              </div>
          </div>
-       {/* </Link> */}
+  
    
            <ul className="users">
              <li onClick={onOpenCartClick}  className="users__item">
@@ -26,13 +26,13 @@ function Headers({onOpenCartClick}) {
              </li>
 
              <li className="users__item">
-              {/* <Link to="/favorite"> */}
-                <img width={20} height={20} src="img/heart.svg"  alt="heart" />
-              {/* </Link> */}
+       
+                <img width={20} height={20} src=""  alt="heart" />
+           
              </li>
          
              <li className="users__item">
-             <img width={20} height={20} src="img/user.svg"  alt="user" />
+             <img width={20} height={20} src=""  alt="user" />
              </li>
            </ul>
         </div>
