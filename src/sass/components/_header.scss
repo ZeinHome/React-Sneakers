@@ -1,0 +1,48 @@
+.header{
+    border: 1px solid $line-header;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+.link-logo{
+    text-decoration: none;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.header__title{
+   margin-left: 15px;
+}
+.project__title{
+    font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 1.2;
+text-transform: uppercase;
+
+color: $color-text-primary;
+}
+.header__text{
+ font-style: normal;
+ font-weight: 400;
+ font-size: 14px;
+ line-height: 1.2;
+
+color: $color-text-second;
+}
+.users{
+    display: flex;
+}
+.users__item:not(:last-child){
+    margin-right: 30px;
+}
+.basket{
+    display: flex;
+}
+.basket__text{
+    margin-left: 10px;
+}

@@ -1,10 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { App } from 'components/App';
-import './index.css';
+import {
+  BrowserRouter as Router,
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
+} from 'react-router-dom'
+import './main.scss'
+import App from './App';
+
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode basename="/React-Sneakers/">
+   <Router>
+   <App />
+    </Router>
   </React.StrictMode>
 );
+
+

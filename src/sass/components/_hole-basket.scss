@@ -1,0 +1,47 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: auto;
+}
+.hole-basket{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ margin-top: 300px;
+}
+
+.hole-b__title{
+font-style: normal;
+font-weight: 600;
+font-size: 22px;
+line-height: 1.2;
+margin-bottom: 10px;
+}
+.hole-b__text{
+width: 285px;
+margin-bottom: 40px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.5;
+text-align: center;
+opacity: 0.4;
+
+}
+.hole-b__btn{
+position: relative;
+background: #9DD458;
+border-radius: 18px;
+padding: 20px 60px;
+color: $bg-color-primary;
+border: none;
+outline: none;
+}
+.hole-b__img{
+ position: absolute;
+ top: 21px;
+ left: 15px;
+ transform: scale(-1, 1) 
+}
