@@ -7,7 +7,7 @@ function Headers({onOpenCartClick}) {
         <div className="header-container">
      
        <div className="logo">
-           <img src="" alt="logo" />
+           <img src="./img/logo.svg" alt="logo" />
              <div className="header__title">
                <h1 className="project__title">REACT SNEAKERS</h1>
                  <p className="header__text">
@@ -27,12 +27,12 @@ function Headers({onOpenCartClick}) {
 
              <li className="users__item">
        
-                <img width={20} height={20} src=""  alt="heart" />
+                <img width={20} height={20} src="img/heart.svg"  alt="heart" />
            
              </li>
          
              <li className="users__item">
-             <img width={20} height={20} src=""  alt="user" />
+             <img width={20} height={20} src="img/user.svg"  alt="user" />
              </li>
            </ul>
         </div>
