@@ -1,5 +1,4 @@
 
-
 function Headers({onOpenCartClick}) {
     return (
         <header className="header">

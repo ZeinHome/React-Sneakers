@@ -4,7 +4,7 @@ function Favorites({item, onAddToFavorite}) {
     return(
         <section>
          <div className="nav">
-        <h2 className="section-title favorites__title"> <Link to="/"><img className="favorites__back" src="img/back.svg" alt="back"/></Link> Мои закладки</h2>
+        <h2 className="section-title favorites__title"> <img className="favorites__back" src="img/back.svg" alt="back"/> Мои закладки</h2>
         </div> 
 
         <ul className="gallery">
