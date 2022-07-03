@@ -66,13 +66,13 @@ function App() {
   };
   return (
     <div className="wrapper">
-      {cartOpen && (
+      {/* {cartOpen && (
         <Drawer
           onClose={() => setCartOpen(false)}
           item={cartItem}
           onRemove={onRemoveCart}
         />
-      )}
+      )} */}
 
       <Headers onOpenCartClick={() => setCartOpen(true)} />
 
