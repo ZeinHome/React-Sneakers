@@ -1,26 +1,31 @@
-import { Link } from "react-router-dom";
-import Card from "../components/Card";
-function Favorites({item, onAddToFavorite}) {
-    return(
-        <section>
-         <div className="nav">
-        <h2 className="section-title favorites__title"> <img className="favorites__back" src="img/back.svg" alt="back"/> Мои закладки</h2>
-        </div> 
+// import { Link } from 'react-router-dom';
+// import Card from '../components/Card';
 
-        <ul className="gallery">
-       {item.map((items, index) => {
-       return <Card
-       key={index}
-       favoried = {true}
-       onFavorite = {onAddToFavorite}
-       {...items}
-       />
-       })}
-   
-       </ul>
+// function Favorites({ item, onAddToFavorite }) {
+//   return (
+//     <section>
+//       <div className="nav">
+//         <h2 className="section-title favorites__title">
+//           {' '}
+//           <img className="favorites__back" src="img/back.svg" alt="back" /> Мои
+//           закладки
+//         </h2>
+//       </div>
 
-   </section>
-    );
-}
+//       <ul className="gallery">
+//         {item.map((items, index) => {
+//           return (
+//             <Card
+//               key={index}
+//               favoried={true}
+//               onFavorite={onAddToFavorite}
+//               {...items}
+//             />
+//           );
+//         })}
+//       </ul>
+//     </section>
+//   );
+// }
 
-export default Favorites;
+// export default Favorites;
